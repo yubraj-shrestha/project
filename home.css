@@ -434,61 +434,6 @@ section{
 
 
 
-/* theme toggler css */
-.theme-toggler{
-    position: fixed;
-    top: 10rem;right: -20rem;
-    background-color: #333;
-    z-index: 100;
-    width: 20rem;
-    text-align: center;
-    /* border-radius: 10%; */
-}
-
-.theme-toggler.active{
-    right: 0;
-}
-
-.theme-toggler h3{
-    color: #fff;
-    padding: 1rem 0;
-    font-size: 2rem;
-}
-
-.theme-toggler .buttons{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
-}
-
-.theme-toggler .buttons .theme-btn{
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.theme-toggler .toggle-btn{
-    position: absolute;
-    top: 0;left: -5.9rem;
-    padding: 1.3rem 1.3rem;
-    background-color: #333;
-    cursor: pointer;
-}
-
-.theme-toggler .toggle-btn i{
-    color: #fff;
-    font-size: 3rem;
-    animation: spin 4s  linear infinite;
-}
-@keyframes spin {
-    0%{
-        transform: rotate(360deg);
-    }
-}
-
 
 
 
