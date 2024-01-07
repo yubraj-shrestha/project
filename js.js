@@ -19,10 +19,10 @@ window.onscroll = ()=>{
     themeToggler.classList.remove('active');
 }
 
-document.querySelectorAll('.theme-toggler .theme-btn').forEach(btn =>{
+document.querySelectorAll('.theme-toggler .theme-btn').forEach(buttons =>{
 
-    btn.onclick = () =>{
-        let color = btn.style.background;
+    buttons.onclick = () =>{
+        let color = buttons.style.background;
         document.querySelector(':root').style.setProperty('--main-color',color);
     }
 });
@@ -41,7 +41,7 @@ var swiper = new Swiper(".home-slider", {
     },
     loop:true,
     autoplay:{
-        // delay: 3000,
+        delay: 3000,
         disableOnInteraction:false,
     }
   });
